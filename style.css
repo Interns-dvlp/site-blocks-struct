@@ -1,0 +1,274 @@
+/* firt left top most block for blogs */
+
+body {background-color: #D3D3D3;}
+        .outer {
+            border-radius: 25px;
+            height: 250px;
+            padding-top: 25px;
+            padding-left: 25px;
+            padding-bottom: 10px;
+            background-color: #FFFFFF;
+            margin-top: 5rem;
+        }
+        .inner {
+           border-radius: 25px;
+            height: 200px;
+            margin: auto;
+            background-color: #DCDCDC;
+        }
+
+        /* arshansh's scroll bar */
+        *,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #e8eaee;
+}
+
+.category {
+  display: grid;
+  height:300px;
+  margin-top: 5rem;
+  border-radius: 12px;
+  box-shadow: -8px 18px 39px -17px #888888;
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 3rem;
+  width: 20%;
+}
+
+.category::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+.category::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+
+.category::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
+.category::-webkit-scrollbar-thumb {
+  border: .5px solid white;
+  border-radius: 5px;
+  background-color: rgba(87, 86, 86, 0.5);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  width: 10px;
+  border-radius: 5px;
+  background-color: #989db4;
+}
+
+.inside-box:hover {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: white;
+}
+
+.outside-box {
+  width: auto;
+  height: 50px;
+}
+
+.inside-box i:hover {
+  color: white;
+}
+
+.inside-box {
+  height: 30px;
+  display: grid;
+  place-items: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #ecf0f3;
+  color: #a9b7c1;
+}
+
+.inside-box i {
+  font-size: 20px;
+}
+
+.anchor-arsh {
+  text-decoration: none;
+}
+/* Left bottom block */
+
+.div1 {
+  border-radius: 25px;
+  height: 330px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  background-color: #FFFFFF;
+        
+}
+
+/* Deekshas search bar */
+
+.div2 { 
+ border-radius: 25px;
+ height: 120px;
+ padding-top: 25px;
+ padding-left: 25px;
+ padding-bottom: 10px;
+ background-color: #FFFFFF;
+       
+}
+.div5 {
+  border-radius: 25px;
+  height: 180px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  background-color: #FFFFFF;
+ }
+
+  /*tUSHAR'S lOGIN/SIGNUP  */
+
+  .div4 {
+   border-radius: 25px;
+   height: 120px;
+   padding-top: 25px;
+   padding-left: 25px;
+   padding-bottom: 10px;
+   background-color: #FFFFFF;    
+   margin-top: 3rem; 
+  }
+  
+
+  
+/* navigation buttons */
+
+  .dot1 {
+    height: 75px;
+    width: 75px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 6rem;
+  }
+  
+  .dot2 {
+    height: 75px;
+    width: 75px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 6rem;
+  }
+
+/* 
+.dsearchBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:  translate(-50%,50%);
+  background: white;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  box-shadow: 0 1px 6px 0 rgba(66, 67, 68, 0.82)
+  
+  
+}
+
+.dsearchBox:hover > .dsearchInput {
+  width: 240px;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border:  solid rgba(81, 203, 238, 1);
+  background: white;
+  height: 40px;
+  border-radius: 50px;
+  padding: 0px;
+}
+
+.dsearchBox:hover > .dsearchButton {
+background: white;
+color : blue;
+}
+
+.dsearchButton {
+  color: white;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background:blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  position: relative;
+}
+
+.dsearchInput {
+  border:none;
+  background: none;
+  outline:none;
+  float:left;
+  padding: 0;
+  color:rgb(76, 113, 214);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  cursor: pointer;
+  
+
+}
+.douterbox{
+  background-image: linear-gradient(to right ,rgb(199, 213, 243) , white);
+      display: grid;
+      border-radius: 25px;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      border-bottom-right-radius: 25px;
+      border-bottom-left-radius: 25px;
+      width: 473px;
+      text-align: left;
+      height: 180px;
+      margin: 53px auto;
+      text-indent: inherit;
+      margin-top: 168px;
+      margin-right: 360px;
+      margin-bottom: 40px;
+      margin-left: 270px;
+      padding-top: 17px;
+      padding-bottom: 48px;
+      background-color: white;
+      box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.82);
+      position: relative;
+      background-position: 20%;
+
+}
+a{
+   display: flex;
+   justify-content: space-evenly;
+  text-decoration: none;
+  font-style: italic;
+  font-size: small;
+  color: grey;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 600px) {
+body {
+  justify-content: inherit;
+  padding: 0 6px;
+  width: 40px;
+  position: relative;
+}    
+} */
